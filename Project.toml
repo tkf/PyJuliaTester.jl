@@ -3,6 +3,12 @@ uuid = "38f91c2e-c2b1-4ee4-b955-072b59b19243"
 authors = ["Takafumi Arakaki <aka.tkf@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+PyVenvs = "900dd30e-34bf-4e23-831d-6809554238a5"
+Python_jll = "93d3a430-8e7c-50da-8e8d-3dfcfb3baf05"
+Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+
 [compat]
 julia = "1"
 
