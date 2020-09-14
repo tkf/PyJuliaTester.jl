@@ -106,8 +106,8 @@ version = "0.1.0"
 
 [[PyVenvs]]
 deps = ["Pkg", "SHA", "Scratch"]
-git-tree-sha1 = "32d2f865c5478203c602321713823c986db3329b"
-repo-rev = "noinit"
+git-tree-sha1 = "ac22e69fe946373e852f2bf8475d1537b7ed2ef5"
+repo-rev = "master"
 repo-url = "https://github.com/tkf/PyVenvs.jl.git"
 uuid = "900dd30e-34bf-4e23-831d-6809554238a5"
 version = "0.1.0"
