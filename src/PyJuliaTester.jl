@@ -3,7 +3,7 @@ module PyJuliaTester
 import Python_jll
 using PyVenvs: @pyvenv, PyVenvs
 
-@pyvenv TEST_VENV requirements="julia[test]"
+@pyvenv TEST_VENV requirements="julia[test] @ https://github.com/tkf/pyjulia/archive/pyjuliatester.zip"
 
 function test_cmd(args = ``; rebuild::Union{Bool,Nothing} = nothing)
     py = PyVenvs.python(TEST_VENV)
