@@ -1,0 +1,4 @@
+[deps]
+PyJuliaTester = "38f91c2e-c2b1-4ee4-b955-072b59b19243"
+PyVenvs = "900dd30e-34bf-4e23-831d-6809554238a5"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
